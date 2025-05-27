@@ -1,7 +1,6 @@
-# Rixy Ai FaceSwap
+# FaceSwap
 
 <p align="center">
-  <a href="https://rixy.ai"><img src="https://i.imgur.com/zHvjHnb.png"></img></a>
 <br />FaceSwap is a tool that utilizes deep learning to recognize and swap faces in pictures and videos.
 </p>
 <p align="center">
@@ -9,8 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.dailymotion.com/video/x810mot"><img src="https://user-images.githubusercontent.com/36920800/178301720-b69841bb-a1ca-4c20-91db-a2a10f5692ca.png"></img></a>
-<br />Emma Stone/Scarlett Johansson FaceSwap using the Phaze-A model
+  [<a href=https://user-images.githubusercontent.com/36920800/178301720-b69841bb-a1ca-4c20-91db-a2a10f5692ca.png"></img></a>](https://raw.githubusercontent.com/Rixy-Ai/faceswap/refs/heads/master/tests/elon_faceswap.gif)
 </p>
 
 <p align="center">
