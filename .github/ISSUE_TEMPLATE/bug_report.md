@@ -5,10 +5,6 @@ title: ''
 labels: ''
 assignees: ''
 
----
-*Note: For general usage questions and help, please use either our [FaceSwap Forum](https://faceswap.dev/forum) 
-or [FaceSwap Discord server](https://discord.gg/FC54sYg). General usage questions are liable to be closed without
-response.*
 
 **Crash reports MUST be included when reporting bugs.**
 

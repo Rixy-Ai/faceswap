@@ -239,9 +239,9 @@ Alternatively you can install Python (3.10 64-bit) for your distribution (links 
 
 
 ## Getting the faceswap code
-It is recommended to clone the repo with git instead of downloading the code from http://github.com/deepfakes/faceswap and extracting it as this will make it far easier to get the latest code (which can be done from the GUI). To clone a repo you can either use the Git GUI for your distribution or open up a command prompt, enter the folder where you want to store faceswap and enter:
+It is recommended to clone the repo with git instead of downloading the code from https://github.com/Rixy-Ai/faceswap and extracting it as this will make it far easier to get the latest code (which can be done from the GUI). To clone a repo you can either use the Git GUI for your distribution or open up a command prompt, enter the folder where you want to store faceswap and enter:
 ```bash
-git clone https://github.com/Rixy-Ai/faceswap.git
+git clone https://github.com/Rixy-Ai/faceswap
 ```
 
 
@@ -273,7 +273,7 @@ To run the CPU version of Faceswap follow these steps:
 ```
 docker build \
 -t faceswap-cpu \
-https://raw.githubusercontent.com/deepfakes/faceswap/master/Dockerfile.cpu
+https://raw.githubusercontent.com/Rixy-Ai/faceswap/master/Dockerfile.cpu
 ```
 2. Launch and enter the Faceswap container:
 
@@ -311,7 +311,7 @@ To build the NVIDIA GPU version of Faceswap, follow these steps:
 ```
 docker build \
 -t faceswap-gpu \
-https://raw.githubusercontent.com/deepfakes/faceswap/master/Dockerfile.gpu
+https://raw.githubusercontent.com/Rixy-Ai/faceswap/master/Dockerfile.gpu
 ```
 1. Launch and enter the Faceswap container:
 
@@ -351,6 +351,4 @@ python faceswap.py gui
 Proceed to [../blob/master/USAGE.md](USAGE.md)
 
 ## Notes
-This guide is far from complete. Functionality may change over time, and new dependencies are added and removed as time goes on.
-
-If you are experiencing issues, please raise them in the [faceswap Forum](https://faceswap.dev/forum) instead of the main repo. Usage questions raised in the issues within this repo are liable to be closed without response.
+This guide is far from complete. 
