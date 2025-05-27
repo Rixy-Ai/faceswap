@@ -1,7 +1,7 @@
 # FaceSwap
 
 <p align="center">
-<br />FaceSwap is a tool that utilizes deep learning to recognize and swap faces in pictures and videos.
+<br />FaceSwap revolutionizes media with ai-powered realism. Create, detect, and enhance with unmatched precision.
 </p>
 <p align="center">
 <img src = "https://i.imgur.com/nWHFLDf.jpg"></img>
