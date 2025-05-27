@@ -1,4 +1,4 @@
-# rixyai_faceswap
+# Rixy Ai FaceSwap
 
 <p align="center">
   <a href="https://rixy.ai"><img src="https://i.imgur.com/zHvjHnb.png"></img></a>
