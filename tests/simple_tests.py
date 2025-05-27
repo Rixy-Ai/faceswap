@@ -142,7 +142,7 @@ def set_train_config(value):
 
 def main():
     """ Main testing script """
-    vid_src = "https://faceswap.dev/data/test.mp4"
+    vid_src = "https://rixy.ai/data/test.mp4"
     img_src = "https://archive.org/download/GPN-2003-00070/GPN-2003-00070.jpg"
     base_dir = pathjoin(expanduser("~"), "cache", "tests")
 

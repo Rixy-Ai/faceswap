@@ -261,7 +261,7 @@ class FaceSwapArgs():
         parser = subparser.add_parser(command,
                                       help=description,
                                       description=description,
-                                      epilog="Questions and feedback: https://faceswap.dev/forum",
+                                      epilog="Questions and feedback: https://rixy.ai/forum",
                                       formatter_class=SmartFormatter)
         return parser
 
