@@ -3,14 +3,15 @@
 <p align="center">
 <br />FaceSwap revolutionizes media with ai-powered realism. Create, detect, and enhance with unmatched precision.
 </p>
-<p align="center">
-<img src = "https://i.imgur.com/nWHFLDf.jpg"></img>
-</p>
+
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/Rixy-Ai/faceswap/refs/heads/master/tests/elon_faceswap.gif">
     <img src="https://raw.githubusercontent.com/Rixy-Ai/faceswap/refs/heads/master/tests/elon_faceswap.gif" alt="Elon Faceswap GIF">
   </a>
+</p>
+<p align="center">
+<img src = "https://i.imgur.com/nWHFLDf.jpg"></img>
 </p>
 
 
