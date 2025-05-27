@@ -1,8 +1,8 @@
 # FaceSwap
 
-<p align="center">
+
 <br />FaceSwap revolutionizes media with ai-powered realism. Create, detect, and enhance with unmatched precision.
-</p>
+
 
 
 <p align="center">
