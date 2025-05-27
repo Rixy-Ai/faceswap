@@ -3,7 +3,7 @@
 
 sphinx>=6.0.0,<7.0.0
 sphinx_rtd_theme==1.2.2
-tqdm==4.65
+tqdm>=4.66.3
 psutil==5.9.0
 numexpr>=2.8.7
 numpy>=1.26.0
