@@ -1,6 +1,4 @@
-# deepfakes_faceswap
-
-### Important information for **Patreon** and **PayPal** supporters. Please see this forum post: https://forum.faceswap.dev/viewtopic.php?f=14&t=3120
+# rixyai_faceswap
 
 <p align="center">
   <a href="https://faceswap.dev"><img src="https://i.imgur.com/zHvjHnb.png"></img></a>
@@ -25,12 +23,10 @@
 </p>
 
 
-![Build Status](https://github.com/deepfakes/faceswap/actions/workflows/pytest.yml/badge.svg) [![Documentation Status](https://readthedocs.org/projects/faceswap/badge/?version=latest)](https://faceswap.readthedocs.io/en/latest/?badge=latest)
-
 Make sure you check out [INSTALL.md](INSTALL.md) before getting started.
 
-- [deepfakes\_faceswap](#deepfakes_faceswap)
-    - [Important information for **Patreon** and **PayPal** supporters. Please see this forum post: https://forum.faceswap.dev/viewtopic.php?f=14\&t=3120](#important-information-for-patreon-and-paypal-supporters-please-see-this-forum-post-httpsforumfaceswapdevviewtopicphpf14t3120)
+- [Rixy-Ai\_faceswap](#rixyai_faceswap)
+   
 - [Manifesto](#manifesto)
   - [FaceSwap has ethical uses.](#faceswap-has-ethical-uses)
 - [How To setup and run the project](#how-to-setup-and-run-the-project)
@@ -40,14 +36,6 @@ Make sure you check out [INSTALL.md](INSTALL.md) before getting started.
   - [Convert](#convert)
   - [GUI](#gui)
 - [General notes:](#general-notes)
-- [Help I need support!](#help-i-need-support)
-  - [Discord Server](#discord-server)
-  - [FaceSwap Forum](#faceswap-forum)
-- [Donate](#donate)
-  - [Patreon](#patreon)
-  - [One time Donations](#one-time-donations)
-    - [@torzdf](#torzdf)
-    - [@andenixa](#andenixa)
 - [How to contribute](#how-to-contribute)
   - [For people interested in the generative models](#for-people-interested-in-the-generative-models)
   - [For devs](#for-devs)
@@ -107,43 +95,12 @@ Alternatively, you can run the GUI by running `python faceswap.py gui`
 NB: there is a conversion tool for video. This can be accessed by running `python tools.py effmpeg -h`. Alternatively, you can use [ffmpeg](https://www.ffmpeg.org) to convert video into photos, process images, and convert images back to the video.
 
 
-**Some tips:**
-
+**Tip:**
 Reusing existing models will train much faster than starting from nothing.
 If there is not enough training data, start with someone who looks similar, then switch the data.
 
-# Help I need support!
-## Discord Server
-Your best bet is to join the [FaceSwap Discord server](https://discord.gg/FC54sYg) where there are plenty of users willing to help. Please note that, like this repo, this is a SFW Server!
-
-## FaceSwap Forum
-Alternatively, you can post questions in the [FaceSwap Forum](https://faceswap.dev/forum). Please do not post general support questions in this repo as they are liable to be deleted without response.
-
 # Donate
 The developers work tirelessly to improve and develop FaceSwap. Many hours have been put in to provide the software as it is today, but this is an extremely time-consuming process with no financial reward. If you enjoy using the software, please consider donating to the devs, so they can spend more time implementing improvements.
-
-## Patreon
-The best way to support us is through our Patreon page:
-
-[![become-a-patron](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/bePatron?u=23238350)
-
-## One time Donations
-Alternatively you can give a one off donation to any of our Devs:
-### @torzdf
- There is very little FaceSwap code that hasn't been touched by torzdf. He is responsible for implementing the GUI, FAN aligner, MTCNN detector and porting the Villain, DFL-H128 and DFaker models to FaceSwap, as well as significantly improving many areas of the code.
-
-**Bitcoin:** bc1qpm22suz59ylzk0j7qk5e4c7cnkjmve2rmtrnc6
-
-**Ethereum:** 0xd3e954dC241B87C4E8E1A801ada485DC1d530F01
-
-**Monero:** 45dLrtQZ2pkHizBpt3P3yyJKkhcFHnhfNYPMSnz3yVEbdWm3Hj6Kr5TgmGAn3Far8LVaQf1th2n3DJVTRkfeB5ZkHxWozSX
-
-**Paypal:** [![torzdf](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JZ8PP3YE9J62L)
-
-### @andenixa
-Creator of the Unbalanced and OHR models, as well as expanding various capabilities within the training process. Andenixa is currently working on new models and will take requests for donations.
-
-**Paypal:** [![andenixa](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NRVLQYGS6NWTU)
 
 # How to contribute
 
@@ -162,13 +119,12 @@ Creator of the Unbalanced and OHR models, as well as expanding various capabilit
  - Clone the repo
  - Play with it
  - Check issues with the 'advuser' tag
- - Also go to the '[faceswap Forum](https://faceswap.dev/forum)' and help others.
+
 
 ## For end-users
  - Get the code here and play with it if you can
- - You can also go to the [faceswap Forum](https://faceswap.dev/forum) and help or get help from others.
  - Be patient. This is a relatively new technology for developers as well. Much effort is already being put into making this program easy to use for the average user. It just takes time!
- - **Notice** Any issue related to running the code has to be opened in the [faceswap Forum](https://faceswap.dev/forum)!
+ 
 
 # About machine learning
 
