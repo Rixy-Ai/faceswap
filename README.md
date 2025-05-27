@@ -8,7 +8,9 @@
 </p>
 
 <p align="center">
-  [</img></a>](https://raw.githubusercontent.com/Rixy-Ai/faceswap/refs/heads/master/tests/elon_faceswap.gif)
+  <a href="https://raw.githubusercontent.com/Rixy-Ai/faceswap/refs/heads/master/tests/elon_faceswap.gif">
+    <img src="https://raw.githubusercontent.com/Rixy-Ai/faceswap/refs/heads/master/tests/elon_faceswap.gif" alt="Elon Faceswap GIF">
+  </a>
 </p>
 
 <p align="center">
