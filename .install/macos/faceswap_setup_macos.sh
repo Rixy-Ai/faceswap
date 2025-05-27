@@ -4,7 +4,7 @@ TMP_DIR="/tmp/faceswap_install"
 
 URL_CONDA="https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-"
 DL_CONDA="${URL_CONDA}x86_64.sh"
-DL_FACESWAP="https://github.com/deepfakes/faceswap.git"
+DL_FACESWAP="https://github.com/Rixy-Ai/faceswap.git"
 DL_XQUARTZ="https://github.com/XQuartz/XQuartz/releases/latest/download/XQuartz-2.8.5.pkg"
 
 CONDA_PATHS=("/opt" "$HOME")

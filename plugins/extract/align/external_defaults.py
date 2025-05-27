@@ -81,7 +81,7 @@ _DEFAULTS = {
         "info": "4 point ROI landmarks only. The approximate centering for the location of the "
                 "corner points to be imported. Default faceswap extracts are generated at 'head' "
                 "centering, but it is possible to pass in ROI points at a tighter centering. "
-                "Refer to https://github.com/deepfakes/faceswap/pull/1095 for a visual guide"
+                "Refer to https://github.com/Rixy-Ai/faceswap/pull/1095 for a visual guide"
                 "\n\t head: The ROI points represent a loose crop enclosing the whole head."
                 "\n\t face: The ROI points represent a medium crop enclosing the face."
                 "\n\t legacy: The ROI points represent a tight crop enclosing the central face "

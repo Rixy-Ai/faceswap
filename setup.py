@@ -735,7 +735,7 @@ class Checks():  # pylint:disable=too-few-public-methods
                 logger.info("cuDNN version: %s", self._env.cudnn_version)
             else:
                 logger.error("cuDNN not found. See "
-                             "https://github.com/deepfakes/faceswap/blob/master/INSTALL.md#"
+                             "https://github.com/Rixy-Ai/faceswap/blob/master/INSTALL.md#"
                              "cudnn for instructions")
                 _INSTALL_FAILED = True
             return

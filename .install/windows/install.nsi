@@ -13,7 +13,7 @@ InstallDir $PROFILE\faceswap
 # Sometimes miniconda breaks. Uncomment/comment the following 2 lines to pin
 !define wwwConda "https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe"
 #!define wwwConda "https://repo.anaconda.com/miniconda/Miniconda3-4.5.12-Windows-x86_64.exe"
-!define wwwRepo "https://github.com/deepfakes/faceswap.git"
+!define wwwRepo "https://github.com/Rixy-Ai/faceswap.git"
 !define wwwFaceswap "https://www.faceswap.dev"
 
 # Faceswap Specific

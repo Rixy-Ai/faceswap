@@ -68,9 +68,9 @@ The type of computations that the process does are well suited for graphics card
 - **Windows 10/11**
   Windows 7 and 8 might work for Nvidia. Your mileage may vary.
   DirectML support is only available in Windows 10 onwards.
-  Windows has an installer which will set up everything you need. See: https://github.com/deepfakes/faceswap/releases
+  Windows has an installer which will set up everything you need. See: https://github.com/Rixy-Ai/faceswap/releases
 - **Linux**
-  Most Ubuntu/Debian or CentOS based Linux distributions will work. There is a Linux install script that will install and set up everything you need. See: https://github.com/deepfakes/faceswap/releases
+  Most Ubuntu/Debian or CentOS based Linux distributions will work. There is a Linux install script that will install and set up everything you need. See: https://github.com/Rixy-Ai/faceswap/releases
 - **macOS**
   Experimental support for GPU-accelerated, native Apple Silicon processing (e.g. Apple M1 chips). Installation instructions can be found [further down this page](#macos-apple-silicon-install-guide).
   Intel based macOS systems should work, but you will need to follow the [Manual Install](#manual-install) instructions.
@@ -86,7 +86,7 @@ The developers are also not responsible for any damage you might cause to your o
 # Linux, Windows and macOS Install Guide
 
 ## Installer
-Windows, Linux and macOS all have installers which set up everything for you. You can download the installer from https://github.com/deepfakes/faceswap/releases.
+Windows, Linux and macOS all have installers which set up everything for you. You can download the installer from https://github.com/Rixy-Ai/faceswap/releases.
 
 If you have issues with the installer then read on for the more manual way to install faceswap on Windows.
 
@@ -125,7 +125,7 @@ To enter the virtual environment:
 
 ### faceswap
 - If you are not already in your virtual environment follow [these steps](#entering-your-virtual-environment)
-- Get the faceswap repo by typing: `git clone --depth 1 https://github.com/deepfakes/faceswap.git`
+- Get the faceswap repo by typing: `git clone --depth 1 https://github.com/Rixy-Ai/faceswap.git`
 - Enter the faceswap folder: `cd faceswap`
 
 #### Easy install
@@ -201,7 +201,7 @@ $ conda activate faceswap
 ### faceswap
 - Download the faceswap repo and enter the faceswap folder:
 ```sh
-$ git clone --depth 1 https://github.com/deepfakes/faceswap.git
+$ git clone --depth 1 https://github.com/Rixy-Ai/faceswap.git
 $ cd faceswap
 ```
 
@@ -241,7 +241,7 @@ Alternatively you can install Python (3.10 64-bit) for your distribution (links 
 ## Getting the faceswap code
 It is recommended to clone the repo with git instead of downloading the code from http://github.com/deepfakes/faceswap and extracting it as this will make it far easier to get the latest code (which can be done from the GUI). To clone a repo you can either use the Git GUI for your distribution or open up a command prompt, enter the folder where you want to store faceswap and enter:
 ```bash
-git clone https://github.com/deepfakes/faceswap.git
+git clone https://github.com/Rixy-Ai/faceswap.git
 ```
 
 

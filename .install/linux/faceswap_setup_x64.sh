@@ -2,7 +2,7 @@
 
 TMP_DIR="/tmp/faceswap_install"
 DL_CONDA="https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh"
-DL_FACESWAP="https://github.com/deepfakes/faceswap.git"
+DL_FACESWAP="https://github.com/Rixy-Ai/faceswap.git"
 
 CONDA_PATHS=("/opt" "$HOME")
 CONDA_NAMES=("/ana" "/mini")

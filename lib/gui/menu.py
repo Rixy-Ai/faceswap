@@ -32,7 +32,7 @@ _RESOURCES: list[tuple[str, str]] = [
     (_("faceswap.dev - Guides and Forum"), "https://www.faceswap.dev"),
     (_("Patreon - Support this project"), "https://www.patreon.com/faceswap"),
     (_("Discord - The FaceSwap Discord server"), "https://discord.gg/VasFUAy"),
-    (_("Github - Our Source Code"), "https://github.com/deepfakes/faceswap")]
+    (_("Github - Our Source Code"), "https://github.com/Rixy-Ai/faceswap")]
 
 
 class MainMenuBar(tk.Menu):  # pylint:disable=too-many-ancestors
