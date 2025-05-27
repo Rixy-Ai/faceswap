@@ -1,6 +1,6 @@
 # Workflow
 
-**Before attempting any of this, please make sure you have read, understood and completed the [installation instructions](../master/INSTALL.md). If you are experiencing issues, please raise them in the [faceswap Forum](https://faceswap.dev/forum) or the [FaceSwap Discord server](https://discord.gg/FdEwxXd) instead of the main repo.**
+**Before attempting any of this, please make sure you have read, understood and completed the [installation instructions](../master/INSTALL.md).**
 
 - [Workflow](#workflow)
 - [Introduction](#introduction)
@@ -38,8 +38,6 @@ So here's our plan. We want to create a reality where Donald Trump lost the pres
 In order to accomplish this, the bot needs to learn to recognize both face A (Trump) and face B (Nic Cage). By default, the bot doesn't know what a Trump or a Nic Cage looks like. So we need to show it lots of pictures and let it guess which is which. So we need pictures of both of these faces first.
 
 A possible source is Google, DuckDuckGo or Bing image search. There are scripts to download large amounts of images. A better source of images are videos (from interviews, public speeches, or movies) as these will capture many more natural poses and expressions. Fortunately FaceSwap has you covered and can extract faces from both still images and video files. See [Extracting video frames](#Extracting_video_frames) for more information.
-
-Feel free to list your image sets in the [faceswap Forum](https://faceswap.dev/forum), or add more methods to this file.
 
 So now we have a folder full of pictures/videos of Trump and a separate folder of Nic Cage. Let's save them in our directory where we put the FaceSwap project. Example: `~/faceswap/src/trump` and `~/faceswap/src/cage`
 
@@ -188,5 +186,3 @@ ffmpeg -i video-frame-%0d.png -c:v libx264 -vf "fps=25,format=yuv420p" out.mp4
 
 # Notes
 This guide is far from complete. Functionality may change over time, and new dependencies are added and removed as time goes on. 
-
-If you are experiencing issues, please raise them in the [faceswap Forum](https://faceswap.dev/forum) or the [FaceSwap Discord server](https://discord.gg/FdEwxXd). Usage questions raised in this repo are likely to be closed without response.
