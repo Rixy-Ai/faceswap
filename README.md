@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  [<a href=https://user-images.githubusercontent.com/36920800/178301720-b69841bb-a1ca-4c20-91db-a2a10f5692ca.png"></img></a>](https://raw.githubusercontent.com/Rixy-Ai/faceswap/refs/heads/master/tests/elon_faceswap.gif)
+  [</img></a>](https://raw.githubusercontent.com/Rixy-Ai/faceswap/refs/heads/master/tests/elon_faceswap.gif)
 </p>
 
 <p align="center">
